@@ -1,24 +1,58 @@
 body {
     font-family: sans-serif;
-    margin: 20px auto;
     max-width: 600px;
     padding-left: 50px;
     padding-right: 50px;
+    margin: 20px auto;
 }
 
-a.button {
-    background-color: salmon;
-    border: 1px solid salmon;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
+p {
+    text-align: justify;
 }
 
-.animal-picture {
-    width: 100%;
-    max-width: 600px;
+/*  –––––––––––––––––––––––- */
+
+#vine { 
+    float: right;
+    width: 100px;
+}
+
+#container {
+    width: 600px;
+}
+
+#GFC-card {
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-color: white;
+    float: right;
+    width: 200px;
+}
+
+#stuart-card {
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-color: white;
+    float: left;
+    width: 200px;
+}
+
+#eddie-card {
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-color: white;
+    float: right;
+    width: 200px;
+}
+
+.pull-quote {
+    text-align: center;
+}
+
+#center-block {
+    text-align: center;
+}
+
+#paintings {
+    max-width: 280px;
 }
