@@ -7,11 +7,11 @@ body {
 #main-header {
     font-family: "Trebuchet MS";
     text-align: center;
-    padding: 40px;
+    /* padding: 40px; */
     font-weight: 100;
     font-size: large;
-    line-height: 1.5;
-    background: url("People\ Walking.jpeg");
+    /* line-height: 1.5; */
+    /* background: url("People\ Walking.jpeg"); */
     height: 200px;
 }
 
