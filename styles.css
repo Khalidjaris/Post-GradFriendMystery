@@ -45,10 +45,10 @@ body {
 
 .pull-quote {
     font-family: kilma-bold;
-    font-size: clamp(10px, 2.5vw, 16px);
+    font-size: clamp(8px, 2vw, 16px);
     color: #134215;
     
-    max-width: 80%;
+    /* max-width: 80%; */
     text-align: center;
     padding: 20px;
     margin: 20px auto;
@@ -61,7 +61,7 @@ body {
     /* text-align: justify; */
     text-align: left;
 
-    max-width: 600px;
+    max-width: max(700px, 50vw);
     padding-left: 30px;
     padding-right: 30px;
     margin: 20px auto;
@@ -69,9 +69,8 @@ body {
 
 .container {
     text-align: center;
-    max-width: 600px;
     padding-bottom: 15px;
-    min-height: calc(clamp(160px, 30vw, 250px)*1.3);
+    min-height: calc(clamp(160px, 30vw, 270px)*1.3);
 }
 
 .card-right {
