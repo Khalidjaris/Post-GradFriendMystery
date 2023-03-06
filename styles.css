@@ -1,33 +1,52 @@
 body {
     font-family: "Tiempos Text Web", Georgia, Times, serif;
-    line-height: 1.5;
     background-color: #d9ead3ff;
+    
+    line-height: 1.5;
+    margin: 0;
+}
+
+#title-image {
+    /* background: #6CBFBF; */
+    color: #242331;
+    background-image: url("C.\ Title\ \(Outline\).png");
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #main-header {
     font-family: 'Squada One', cursive;
-
+    color: #242331;
+    text-shadow: white 4px 4px;
+    
     text-align: center;
-    /* background: url("People\ Walking.jpeg"); */
 }
 
 #main-header h1 {
-    font-size: min(8vw, 90px);
-    color: #242331;
+    font-size: min(8vw, 85px);
+    max-width: max(1000px, 70vw);
+    /* color: #242331; */
 
-    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 5vw; */
     margin-bottom: 1vw;
 }
 
 #main-header h2 {
     font-size: clamp(20px, 3vw, 35px);
-    ;
+    text-shadow: white 2px 2px !important;
 }
 
 #sub-header {
     font-size: clamp(10px, 4vw, 30px);
     color: #4c3828;
     font-family: 'Squada One', cursive;
+    text-transform: capitalize;
+
 
     text-align: center;
     margin: auto;
@@ -57,12 +76,14 @@ body {
 
 .pull-quote {
     font-family: kilma-bold;
-    font-size: clamp(8px, 2vw, 16px);
+    font-size: clamp(10px, 2vw, 16px);
     color: #134215;
     
     /* max-width: 80%; */
-    text-align: center;
+    text-align: left;
     padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     margin: 20px auto;
 }
 
@@ -79,6 +100,16 @@ body {
     padding-right: 30px;
     margin: 20px auto;
 }
+
+#paintings {
+    width: clamp(200px, 30vw, 400px);
+}
+
+#outro {
+    padding-top: 100px;
+}
+
+/* –––––––––––––– */
 
 .container {
     text-align: center;
@@ -122,14 +153,6 @@ body {
 .card-left {
     float: left;
     width: var(--card-width);
-}
-
-#paintings {
-    width: clamp(200px, 30vw, 280px);
-}
-
-#outro {
-    height: 100px;
 }
 
 /* ––––––––––––––– */
